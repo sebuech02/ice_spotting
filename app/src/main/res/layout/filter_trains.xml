@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="10dp"
+            android:id="@+id/infos">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:text="Filter nach Sichtungen"/>
+            <CheckBox
+                android:id="@+id/ohne_entry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nicht gesehenen und gefahrene anzeigen:"/>
+            <CheckBox
+                android:id="@+id/saw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gesehene anzeigen:"/>
+            <CheckBox
+                android:id="@+id/drove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gefahrene anzeigen:"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#ff0000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:text="Filter nach Baureihen:"/>
+            <CheckBox
+                android:id="@+id/br401"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BR401 anzeigen:"/>
+            <CheckBox
+                android:id="@+id/br402"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BR402 anzeigen:"/>
+            <CheckBox
+                android:id="@+id/br403"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BR403 anzeigen:"/>
+            <CheckBox
+                android:id="@+id/br406"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BR406 anzeigen:"/>
+            <CheckBox
+                android:id="@+id/br407"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BR407 anzeigen:"/>
+            <CheckBox
+                android:id="@+id/br411"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BR411 anzeigen:"/>
+            <CheckBox
+                android:id="@+id/br415"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BR415 anzeigen:"/>
+            <CheckBox
+                android:id="@+id/br605"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BR605 anzeigen:"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

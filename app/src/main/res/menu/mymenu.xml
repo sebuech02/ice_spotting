@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/suche"
+        android:title=""
+        android:icon="@drawable/suchbutton"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"/>
+    <item
+        android:id="@+id/sortierung"
+        android:title="Sortierung ändern"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/filter"
+        android:title="Züge filtern"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/impressum"
+        android:title="Impressum"
+        app:showAsAction="never" />
+</menu>
